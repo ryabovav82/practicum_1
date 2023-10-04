@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #F5F5F5;
+    font-family: Inter,serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+a {
+    color: #F5F5F5;
+}
+.content-section {
+    max-width: 360px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.content-section_theme_dark {
+    background-color: #131313;
+    color:#F5F5F5;
+}
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+.header {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    display: block;
+    width: 78px;
+    height: auto;
+}
+.header__logo-image {
+    width: 100%;
+}
+.header__menu-list {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.header__menu-item_active {
+    text-decoration: none;
+}
+.cover {
+    padding: 7px 24px 32px 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95%;
+}
+.cover__title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+}
+.accent-span {
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.intro{
+    padding: 30px 20px;
+    color: #F5F5F5;
+    line-height: 21.6px; /* 135% */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+.intro__title {}
+.intro__date {
+    white-space: nowrap;
+}
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.reasons {
+
+}
+/* content-section__subtitle — заголовок;
+accent-span, text-right — знакомы вам по секции cover;
+content-section__introduction — абзац перед списком;
+content-section__list — список;
+content-section__list-item — пункт списка;
+content-section__list-accent */
+.content-section__subtitle {
+
+}
+.content-section__introduction {
+
+}
+.content-section__list {
+
+}
+.content-section__list-item {
+
+}
+.content-section__list-accent {
+    
+}

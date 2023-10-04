@@ -1,0 +1,30 @@
+/* EB Garamond со значениями толщины 500 (файлы с именами ebgaramondmedium) и 400 (файлы с именами ebgaramondregular).
+Inter со значениями толщины 400 (файлы с именами interregular) и 700 (файлы с именами interbold). */
+@font-face {
+    font-family: 'EB Garamond';
+    src: url(./ebgaramondmedium.ttf), 
+    url(./ebgaramondmedium.woff), 
+    url(./ebgaramondmedium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url(./ebgaramondregular.ttf), 
+    url(./ebgaramondregular.woff), 
+    url(./ebgaramondregular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./interregular.ttf), 
+    url(./interregular.woff), 
+    url(./interregularr.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./interbold.ttf), 
+    url(./interbold.woff), 
+    url(./interbold.woff2);
+    font-weight: 700;
+}
